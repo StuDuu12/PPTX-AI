@@ -1,0 +1,37 @@
+# Streamlit Configuration cho Production
+# File: .streamlit/config.toml
+
+[global]
+# Production settings
+developmentMode = false
+showWarningOnDirectExecution = false
+
+[server]
+# Server settings cho custom domain
+port = 8501
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+
+# Custom domain settings
+headless = true
+runOnSave = false
+allowRunOnSave = false
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+# Custom theme
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+
+[client]
+# Client settings
+caching = true
+displayEnabled = true

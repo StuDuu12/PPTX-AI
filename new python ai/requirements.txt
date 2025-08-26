@@ -1,0 +1,24 @@
+# AI PowerPoint Generator - Dependencies
+google-generativeai>=0.8.0
+python-pptx>=0.6.23
+requests>=2.31.0
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+pillow>=10.0.0
+cryptography>=41.0.0
+
+# Advanced PowerPoint Features
+matplotlib>=3.7.0
+seaborn>=0.12.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+ #QuickChart.io & Mermaid.js Integration
+urllib3>=2.0.0
+
+ #BERT Content Refinement (MỚI)
+transformers>=4.30.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+
+# pip install -r requirements.txt
